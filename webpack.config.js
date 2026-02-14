@@ -11,6 +11,7 @@ module.exports = {
   },
   devtool: "eval-source-map",
   devServer: {
+    static: false,
     watchFiles: ["./src/template.html"],
   },
   plugins: [

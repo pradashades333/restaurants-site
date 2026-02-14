@@ -1,3 +1,5 @@
 import createHomePage from "./home.js";
 
-createHomePage();
+document.addEventListener("DOMContentLoaded", () => {
+  createHomePage();
+});
