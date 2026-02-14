@@ -1,5 +1,6 @@
-import createHomePage from "./home.js";
+import createHome from "./home.js";
+import createMenu from "./menu.js";
 
-document.addEventListener("DOMContentLoaded", () => {
-  createHomePage();
-});
+
+createHome();
+createMenu();
