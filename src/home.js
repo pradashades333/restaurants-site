@@ -18,10 +18,17 @@ function createHome() {
   const location = document.createElement("p");
   location.textContent = "Location: Berlin, Germany";
 
+  const footer = document.createElement("p");
+  footer.textContent = "© 2024 James & Smith Restaurant. All rights reserved.";
+  footer.style.marginTop = "30px";
+  footer.style.fontSize = "12px";
+  footer.style.color = "#888";
+
   homeDiv.appendChild(headline);
   homeDiv.appendChild(description);
   homeDiv.appendChild(hours);
   homeDiv.appendChild(location);
+  homeDiv.appendChild(footer);
   content.appendChild(homeDiv);
 }
 
